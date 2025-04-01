@@ -1,5 +1,5 @@
 import asyncio
-from main import mcp, control_playback, play_track
+from orchestrator import mcp, control_playback, play_track
 
 async def test_server():
     print("Testing basic Spotify controls...")
